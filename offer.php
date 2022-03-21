@@ -463,9 +463,9 @@ function sayiyiYaziyaCevir($sayi, $kurusbasamak, $parabirimi, $parakurus, $diyez
             </div>
 
             <div id="heading">
-                <span class="h1">DENEME LTD. ŞTİ.</span>
-                <span class="h2">Deneme Mah. Deneme Sk. No: 1/A Ataşehir İstanbul<br>
-                Tel: 0216 555 55 55 - 0216 555 55 55 - <span class="bold">siparis@deneme.com.tr</span></span>
+                <span class="h1">*** LTD. ŞTİ.</span>
+                <span class="h2">*** Mahallesi *** Sokak No: 1/A *** İstanbul<br>
+                Tel: 0216 *** ** ** - 0216 *** ** ** - <span class="bold">***.com.tr</span></span>
             </div>
             
         </header>
@@ -619,12 +619,12 @@ function sayiyiYaziyaCevir($sayi, $kurusbasamak, $parabirimi, $parakurus, $diyez
                     <li>ING Bankası</li>
                 </ul>
                 <ul>
-                    <li>TR34 0004 6001 6188 8000 2974 16</li>
-                    <li>TR32 0011 1000 0000 0072 6761 15</li>
-                    <li>TR07 0006 2000 0910 0006 2926 27</li>
-                    <li>TR74 0006 7010 0000 0064 9599 57</li>
-                    <li>TR27 0006 4000 0011 2190 3466 29</li>
-                    <li>TR86 0009 9023 2671 2300 1000 01</li>
+                    <li>TR** *** *** *** *** *** ***</li>
+                    <li>TR** *** *** *** *** *** ***</li>
+                    <li>TR** *** *** *** *** *** ***</li>
+                    <li>TR** *** *** *** *** *** ***</li>
+                    <li>TR** *** *** *** *** *** ***</li>
+                    <li>TR** *** *** *** *** *** ***</li>
                 </ul>
             </div>
             <div class="inner-container small">
