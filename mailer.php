@@ -223,7 +223,7 @@ $body .= '<!--[if gte MSO 9]>
     <table width="100%" style="max-width:640px;">
     <tr>
         <td>
-        <img src="https://dev.digitalfikirler.com/labor/images/calisma_yuzeyi.png" width="100%" />
+        <img src="***/images/calisma_yuzeyi.png" width="100%" />
         </td>
     </tr>
     </table>
@@ -234,9 +234,9 @@ $body .= '<!--[if gte MSO 9]>
     <![endif]-->';
 $response = sendEmail($email, $name, $body, $attachment);
 
-$body = '<img src="https://dev.digitalfikirler.com/labor/images/logo.png" width="220"/><br><br>Sayın yetkili,<br><br>' . $name . ' bir teklif talebinde bulundu. Teklif örneği ektedir.<br><br>Müşteri Bilgileri:<br><br>Firma Adı: ' . $firm . '<br>Vergi Numarası: ' . $tax_number . '<br>Ad/Soyad: ' . $name . '<br>E-Mail: ' . $email . '<br>Telefon: ' . $phone . '<br><br>Not: ' . $note . '<br><br>İyi çalışmalar dileriz.';
+$body = '<img src="***/images/logo.png" width="220"/><br><br>Sayın yetkili,<br><br>' . $name . ' bir teklif talebinde bulundu. Teklif örneği ektedir.<br><br>Müşteri Bilgileri:<br><br>Firma Adı: ' . $firm . '<br>Vergi Numarası: ' . $tax_number . '<br>Ad/Soyad: ' . $name . '<br>E-Mail: ' . $email . '<br>Telefon: ' . $phone . '<br><br>Not: ' . $note . '<br><br>İyi çalışmalar dileriz.';
 
-$response2 = sendEmail("iletisim@labor.com.tr", "labor.com.tr", $body, $attachment);
+$response2 = sendEmail("***", "***", $body, $attachment);
 
 if($response == 1 && $response2 == 1) {
 	echo 1;
@@ -252,15 +252,15 @@ function sendEmail($email, $name, $body, $attachment = null) {
 		$mail->IsSMTP();
 
 		$mail->SMTPAuth = true;
-		$mail->Host = 'mail.labor.com.tr';
+		$mail->Host = 'mail.***';
 		$mail->Port = 587;
-		$mail->Username = 'iletisim@labor.com.tr';
-		$mail->Password = '123321abC';
+		$mail->Username = '***';
+		$mail->Password = '***';
 
-		$mail->SetFrom("iletisim@labor.com.tr", 'labor.com.tr');
+		$mail->SetFrom("***", '***');
 		$mail->AddAddress($email, $name);
 		$mail->CharSet = 'UTF-8';
-		$mail->Subject = 'Labor Teknik – Teklif Talebi';
+		$mail->Subject = '***';
 		$mail->IsHTML(true);
 		$mail->MsgHTML($body);
 
