@@ -218,7 +218,7 @@ body.offset-content-active .offset-content {
     display: flex !important;
 }
 .swal2-popup #currency{
-    background-image: url(https://dev.digitalfikirler.com/labor/images/background.svg) !important;
+    background-image: url(***/images/background.svg) !important;
     background-position: right 2rem center !important;
     border: solid 1px #191919;
     border-radius: 2px;
