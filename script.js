@@ -92,7 +92,7 @@ $(function(){
                             </small>
                         </div>
                         <div class="cart-content-empty-icon">
-                            <img src="https://dev.digitalfikirler.com/labor/images/laborteknik-logo.png">
+                            <img src="***/images/laborteknik-logo.png">
                         </div>
                         <div class="cart-content-button">
                             <a href="javascript:void(0);" class="btn btn-primary btn-block" data-selector="openbox-close" style="background:#BDBDBD;">ALIŞVERİŞE BAŞLA</a>
@@ -452,7 +452,7 @@ $(function(){
                                 </small>
                             </div>
                             <div class="cart-content-empty-icon">
-                                <img src="https://dev.digitalfikirler.com/labor/images/laborteknik-logo.png">
+                                <img src="***/images/laborteknik-logo.png">
                             </div>
                             <div class="cart-content-button">
                                 <a href="javascript:void(0);" class="btn btn-block btn-secondary" data-selector="openbox-close">ALIŞVERİŞE BAŞLA</a>
@@ -676,7 +676,7 @@ $(function(){
 
                         $.ajax({
                             type: "GET",
-                            url: "https://dev.digitalfikirler.com:9898/pdfgenerator",
+                            url: "***/pdfgenerator",
                             data: "info=" + JSON.stringify(info),
                             success: function(response){
                                 
